@@ -14,7 +14,8 @@
 
 from setuptools import setup
 from io import open
-from paddleocr import VERSION
+# from paddleocr import VERSION
+VERSION = '2.2.0.1'
 
 with open('requirements.txt', encoding="utf-8-sig") as f:
     requirements = f.readlines()
